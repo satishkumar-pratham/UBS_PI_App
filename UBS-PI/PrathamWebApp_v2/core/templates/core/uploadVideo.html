@@ -1,0 +1,57 @@
+{% extends "core/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content1 %}
+
+<style>
+
+	.contentDiv
+	{
+		text-align : center;
+		background-color : #001F3F;
+		color : #FFFFFF;
+	}
+
+	.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+</style>
+<br><br><br><br>
+<div class = "contentDiv">
+
+	<br><br><br><br>
+
+	<h1> UPLOAD VIDEO </h1>
+	
+	<br><br><br><br>
+	
+	<form method = "POST" action = {% url "core-uploadVideo" %} enctype="multipart/form-data">
+		
+		{% csrf_token %}
+		
+		<fieldset class = "form-group">
+		
+			<legend class = "border-bottom mb-4"> Upload Video </legend> 
+		
+			{{ INTERVIEWForm }}
+		
+		</fieldset>
+		
+		<br><br><br><br>
+		
+		<div>
+			<button class = "btn btn-primary" type = "submit"> SUBMIT </button>  
+		</div>
+		
+	</form>
+	
+	<br><br><br><br>
+	
+</div>
+
+
+{% endblock content1 %}

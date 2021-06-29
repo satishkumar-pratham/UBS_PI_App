@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+{% load static %}
+{% load crispy_forms_tags %}
+
+<html>
+
+<head>
+
+    {% if title %}
+        <title>Pratham Interview Portal - {{ title }}</title>
+    {% else %}
+        <title>Pratham Interview Portal</title>
+    {% endif %}
+    
+    <style>
+    
+    	.tab{
+			  overflow: hidden;
+			  border: 1px solid #ccc;
+			  background-color: #f1f1f1;
+			  text-align : right;
+			}
+			
+			table { 
+			  font-family: arial, sans-serif;
+			  border-collapse: collapse;
+			  width: 100%;
+			}
+
+			td, th {
+			  border: 1px solid #dddddd;
+			  text-align: left;
+			  padding: 8px;
+			}
+
+			tr:nth-child(even) {
+			  background-color: #dddddd;
+			}
+			
+		* {
+		  box-sizing: border-box;
+		}
+
+		/* Create two unequal columns that floats next to each other */
+		.column {
+		  float: left;
+		  padding: 10px;
+		  height: 100%; /* Should be removed. Only for demonstration */
+		}
+
+		.left {
+		  width: 20%;
+		}
+
+		.right {
+		  width: 80%;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+			
+	</style>
+    
+</head>
+
+<body>
+    
+    <div class="column left" style = "background-color:#7FCDCD; padding : 400px 0;">
+    
+    
+    	<h3 style = "text-align : center; color : #000000;"> <strong> <u> MAIN MENU </u> </strong> </h3>
+    	
+    	<br><br><br>
+    
+    	<div style = "background-color : #FFFFFF">
+    
+    	<table>
+    	
+    	<tr> <th> <a href = {% url "core-viewGuidelines" %} style = "color:#000000;"> VIEW GUIDELINES </a> </th> </tr>
+    	
+    	<tr> <th> <a href = {% url "core-viewQuestions" %} style = "color:#000000;"> VIEW QUESTIONS </a> </th> </tr>
+    	
+    	<tr> <th> <a href = {% url "core-uploadVideo" %} style = "color:#000000;"> UPLOAD VIDEO </a> </th> </tr>
+    	
+    	<tr> <th> <a href = {% url "core-recordVideo" %} style = "color:#000000;"> RECORD VIDEO </a> </th> </tr>
+    	
+    	<tr> <th> <a href = {% url "core-viewResults" %} style = "color:#000000;"> VIEW RESULTS </a> </th> </tr>
+    	
+    	</table>
+    
+    	</div>
+    
+    </div>
+    
+    <div class = "column right">
+    
+		<div class="tab">
+		  
+		  <a href = {% url "core-home"%}> <button class="tablinks"> HOME </button> </a>
+		  <a href = {% url "core-userLogout"%}> <button class="tablinks"> LOGOUT </button> </a>
+		  <a href = "https://www.pratham.org"> <button class="tablinks"> ABOUT </button> </a>
+
+		</div>
+		
+		{%if messages%}
+		
+			{%for message in messages%}
+			
+			<div class = "alert alert-{{ message.tags }}">
+			
+				{{ message }}
+			
+			</div>
+			
+			{%endfor%}
+			
+		{%endif%}
+		
+		{% block content1 %}
+		
+		{% endblock content1 %}
+    
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

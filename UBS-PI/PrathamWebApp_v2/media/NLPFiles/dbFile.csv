@@ -1,0 +1,23 @@
+greeting,"Hi name, :: Hello name, :: What’s up name,"
+open1,Hope you are doing fine ! :: We are very excited to receive you submission ! :: We are glad to receive your submission
+open2,"We have graded your submission the result is as follows :: We have gone through your submission, our findings are mentioned below :: After grading your submission we have attached our submissions herewith"
+eyeContactIndexHigh,You have maintined eye contact throught out the interview Great Job ! Keep it up :: Kudos you have successfully maintained eye contact in the interview. 
+eyeContactIndexMedium,"Your eye contact level has been identified as medium, it is a good start try to improve on the same :: Your eye contact is a bit inconsistent try to maintain the same throughout the interview"
+eyeContactIndexLow,"You have low level of eye contact, maintaining eye contact with the interviewer is very important as it reflects your confidence. :: To show that you are confident one must maintian eye contact with the interviewer, in your case it is absent try to improve the same."
+smileIndexHigh,Smiling conveys positivity and your submission has been ranked high in this index. Good work keep it up ! :: Your submission that you have been smiling during the interview nice presentation ! Keep uth the good work 
+smileIndexMedium,"For the submitted file the smile score is Medium, well done try to rectify the mistakes whereever possible :: The smile score is Medium for the submission, you have done well but we know u can do better than this :)"
+smileIndexLow,"Smiling is important to represent positivity and confidence during the interview, we have detected a low score in smiling index, try to improve the same. :: For the submission the smile score is on lower side, improvement in this field is required. "
+sentimentIndexHigh,"Your speech had lots of positive words which is a very good sign. Try to continue the same, using positive words is very helpful. :: Your submission indicates that you have used may positive words and this gives a very good positive impact keep it up !"
+sentimentIndexMedium,"You have used some positive words in your but have confidence in you that you can do better ! :: The submitted video shows a medium positive sentiment in your interview good work try to imporve on the same, using positive words will help :)"
+sentimentIndexLow,"Your submission suggests that your speech lacks positive sentiment, try to use positive words. Using positive words will help to convey a positive and confident personality :: It can be judged that your speech needs some improvement, try using positive words it would help !"
+faceObstructionIndexHigh,Nice FO
+faceObstructionIndexMedium,Ok FO
+faceObstructionIndexLow,Bad FO
+lipBiteIndexHigh,Nice LB
+lipBiteIndexMedium,Ok LB
+lipBiteIndexLow,Bad LB
+voiceConfidenceIndexHigh,Nice VC
+voiceConfidenceIndexMedium,Ok VC
+voiceConfidenceIndexLow,Bad VC
+guidelines,"It seems that there is problem with the video recording. Hence a complete grading report cannot be generated, Please refer to the guidelines http://52.183.134.133/viewGuidelines/"
+close1,"Looking forward to more submissions from you ! :: Feel free to submit more videos/audios, we would be glad to grade them :: Hope you found the grading useful, hope you will use the app again"

@@ -1,0 +1,42 @@
+{% extends "core/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content1 %}
+
+<style>
+
+	.contentDiv
+	{
+		text-align : center;
+		background-color : #001F3F;
+		color : #FFFFFF;
+	}
+
+	.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+</style>
+
+<br><br><br><br><br>
+
+<div class = "contentDiv">
+
+<h3> Press START to begin recording</h3>
+
+<form method = "POST" action = {% url "core-recordVideo" %} enctype="multipart/form-data">
+		
+	{% csrf_token %}
+
+	<button class = "btn btn-primary" value = "START" name = "START" type = "submit"> START </button>
+	
+</form>
+
+<h2> Press 'q' key to stop recording </h2>
+
+</div>
+
+{% endblock content1 %}

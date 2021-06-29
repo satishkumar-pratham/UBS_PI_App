@@ -1,0 +1,36 @@
+{% extends "core/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content1 %}
+
+<style>
+
+	.contentDiv
+	{
+		text-align : center;
+		background-color : #001F3F;
+		color : #FFFFFF;
+	}
+
+	.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+</style>
+
+<br><br><br><br><br>
+
+<div class = "contentDiv">
+
+	{% for line in reportData %}
+	
+		{{ line }} <br>
+	
+	{% endfor %}
+
+</div>
+
+{% endblock content1 %}

@@ -1,0 +1,72 @@
+{% extends "core/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content1 %}
+
+<style>
+
+	.contentDiv
+	{
+		text-align : center;
+		background-color : #001F3F;
+		color : #FFFFFF;
+	}
+
+	.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+</style>
+
+<br><br><br><br><br>
+
+<form method = "POST" action = {% url "core-viewResults" %} enctype="multipart/form-data" id = "resultButtonForm">
+		
+		{% csrf_token %}
+
+	<table>
+
+		<tr> <th> Interview Id </th> <th> Date Of Submission </th> <th> Result </th> </tr>
+
+		{% for row in interviewQuerySet %}
+		
+			{% if row.isReportGenerated %}
+		
+			<tr> <th> {{ row.id }} </th> <th> {{ row.dateOfSubmission }} </th> <th> <button class = "btn btn-primary" onclick = sendInterviewId({{ row.id }}) type = "submit"> Result </button> </th> </tr>
+			
+			{% else %}
+			
+			<tr> <th> {{ row.id }} </th> <th> {{ row.dateOfSubmission }} </th> <th> Result to be generated </th> </tr>
+
+			{% endif %}
+
+		{% endfor %}
+
+	</table>
+
+
+</form>
+
+<script>
+
+	function sendInterviewId(interviewId)
+	{
+	
+		var form = document.getElementById("resultButtonForm");
+		
+		var FN = document.createElement("input"); 
+    	FN.setAttribute("type", "hidden"); 
+    	FN.setAttribute("name", "interviewId"); 
+    	FN.setAttribute("value", interviewId) ;
+		
+		form.appendChild(FN);
+		
+		form.submit();
+	}
+
+</script>
+
+{% endblock content1 %}

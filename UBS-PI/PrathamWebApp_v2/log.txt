@@ -1,0 +1,678 @@
+2021-06-18 11:59:40,856 Authentication Issue
+2021-06-18 11:59:40,857 exception
+Traceback (most recent call last):
+  File "/var/www/html/UBS-PI/PrathamWebApp_v2/core/views.py", line 117, in viewQuestions
+    questionData = open(questionFilePath + questionFileName).read();print("sucess")
+FileNotFoundError: [Errno 2] No such file or directory: 'media/questions/questionFile.txt'
+2021-06-18 11:59:40,895 Internal Server Error: /viewQuestions/
+Traceback (most recent call last):
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/html/UBS-PI/PrathamWebApp_v2/core/views.py", line 130, in viewQuestions
+    contextDict = {'questions' : questionData}
+UnboundLocalError: local variable 'questionData' referenced before assignment
+2021-06-18 12:04:43,737 Authentication Issue
+2021-06-18 12:04:43,738 exception
+Traceback (most recent call last):
+  File "/var/www/html/UBS-PI/PrathamWebApp_v2/core/views.py", line 117, in viewQuestions
+    questionData = open(questionFilePath + questionFileName).read();print("sucess")
+FileNotFoundError: [Errno 2] No such file or directory: '/var/www/html/UBS-PI/PrathamWebApp_v2/media/questions//var/www/html/UBS-PI/PrathamWebApp_v2/questionFile.txt'
+2021-06-18 12:04:43,779 Internal Server Error: /viewQuestions/
+Traceback (most recent call last):
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/html/UBS-PI/PrathamWebApp_v2/core/views.py", line 130, in viewQuestions
+    contextDict = {'questions' : questionData}
+UnboundLocalError: local variable 'questionData' referenced before assignment
+2021-06-18 12:04:46,339 Authentication Issue
+2021-06-18 12:04:46,339 exception
+Traceback (most recent call last):
+  File "/var/www/html/UBS-PI/PrathamWebApp_v2/core/views.py", line 117, in viewQuestions
+    questionData = open(questionFilePath + questionFileName).read();print("sucess")
+FileNotFoundError: [Errno 2] No such file or directory: '/var/www/html/UBS-PI/PrathamWebApp_v2/media/questions//var/www/html/UBS-PI/PrathamWebApp_v2/questionFile.txt'
+2021-06-18 12:04:46,372 Internal Server Error: /viewQuestions/
+Traceback (most recent call last):
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/html/UBS-PI/PrathamWebApp_v2/core/views.py", line 130, in viewQuestions
+    contextDict = {'questions' : questionData}
+UnboundLocalError: local variable 'questionData' referenced before assignment
+2021-06-18 12:04:52,272 Authentication Issue
+2021-06-18 12:04:52,272 exception
+Traceback (most recent call last):
+  File "/var/www/html/UBS-PI/PrathamWebApp_v2/core/views.py", line 117, in viewQuestions
+    questionData = open(questionFilePath + questionFileName).read();print("sucess")
+FileNotFoundError: [Errno 2] No such file or directory: '/var/www/html/UBS-PI/PrathamWebApp_v2/media/questions//var/www/html/UBS-PI/PrathamWebApp_v2/questionFile.txt'
+2021-06-18 12:04:52,308 Internal Server Error: /viewQuestions/
+Traceback (most recent call last):
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/html/UBS-PI/PrathamWebApp_v2/core/views.py", line 130, in viewQuestions
+    contextDict = {'questions' : questionData}
+UnboundLocalError: local variable 'questionData' referenced before assignment
+2021-06-18 12:04:55,935 Authentication Issue
+2021-06-18 12:04:55,935 exception
+Traceback (most recent call last):
+  File "/var/www/html/UBS-PI/PrathamWebApp_v2/core/views.py", line 117, in viewQuestions
+    questionData = open(questionFilePath + questionFileName).read();print("sucess")
+FileNotFoundError: [Errno 2] No such file or directory: '/var/www/html/UBS-PI/PrathamWebApp_v2/media/questions//var/www/html/UBS-PI/PrathamWebApp_v2/questionFile.txt'
+2021-06-18 12:04:55,969 Internal Server Error: /viewQuestions/
+Traceback (most recent call last):
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/html/UBS-PI/PrathamWebApp_v2/core/views.py", line 130, in viewQuestions
+    contextDict = {'questions' : questionData}
+UnboundLocalError: local variable 'questionData' referenced before assignment
+2021-06-18 12:19:06,793 Not Found: /.env
+2021-06-18 12:19:06,991 Not Found: /.remote
+2021-06-18 12:19:07,188 Not Found: /.local
+2021-06-18 12:19:07,385 Not Found: /.production
+2021-06-18 12:19:07,588 Not Found: /vendor/.env
+2021-06-18 12:19:07,786 Not Found: /lib/.env
+2021-06-18 12:19:07,984 Not Found: /lab/.env
+2021-06-18 12:19:08,182 Not Found: /cronlab/.env
+2021-06-18 12:19:08,379 Not Found: /cron/.env
+2021-06-18 12:19:08,577 Not Found: /core/.env
+2021-06-18 12:19:08,774 Not Found: /core/app/.env
+2021-06-18 12:19:08,972 Not Found: /core/Datavase/.env
+2021-06-18 12:19:09,169 Not Found: /database/.env
+2021-06-18 12:19:09,366 Not Found: /config/.env
+2021-06-18 12:19:09,565 Not Found: /assets/.env
+2021-06-18 12:19:09,764 Not Found: /app/.env
+2021-06-18 12:19:09,961 Not Found: /apps/.env
+2021-06-18 12:19:10,160 Not Found: /uploads/.env
+2021-06-18 12:19:10,359 Not Found: /sitemaps/.env
+2021-06-18 12:19:10,557 Not Found: /saas/.env
+2021-06-18 12:19:10,754 Not Found: /api/.env
+2021-06-18 12:19:10,951 Not Found: /psnlink/.env
+2021-06-18 12:19:11,147 Not Found: /exapi/.env
+2021-06-18 12:19:11,344 Not Found: /site/.env
+2021-06-18 12:19:11,969 Not Found: /web/.env
+2021-06-18 12:19:12,168 Not Found: /public/.env
+2021-06-18 12:19:12,383 Not Found: /en/.env
+2021-06-18 12:19:12,586 Not Found: /tools/.env
+2021-06-18 12:19:12,791 Not Found: /v1/.env
+2021-06-18 12:19:12,990 Not Found: /v2/.env
+2021-06-18 12:19:13,188 Not Found: /administrator/.env
+2021-06-18 12:19:13,387 Not Found: /laravel/.env
+2021-06-18 12:19:13,774 Forbidden (CSRF cookie not set.): /
+2021-06-18 12:19:14,151 Forbidden (CSRF cookie not set.): /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:14,346 Not Found: /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:14,542 Not Found: /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:14,737 Not Found: /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:14,932 Not Found: /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:15,134 Not Found: /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:15,330 Not Found: /dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:15,567 Not Found: /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:15,772 Not Found: /lib/phpunit/Util/PHP/eval-stdin.php
+2021-06-18 12:19:15,966 Not Found: /lib/phpunit/phpunit/Util/PHP/eval-stdin.php
+2021-06-18 12:19:16,161 Not Found: /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:16,357 Not Found: /lib/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:16,553 Not Found: /new/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:16,747 Not Found: /old/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:16,941 Not Found: /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:17,137 Not Found: /phpunit/Util/PHP/eval-stdin.php
+2021-06-18 12:19:17,332 Not Found: /phpunit/phpunit/Util/PHP/eval-stdin.php
+2021-06-18 12:19:17,526 Not Found: /phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:17,721 Not Found: /phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:17,916 Not Found: /protected/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:18,116 Not Found: /sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:18,311 Not Found: /vendor/phpunit/Util/PHP/eval-stdin.php
+2021-06-18 12:19:18,506 Not Found: /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php
+2021-06-18 12:19:18,702 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:18,899 Not Found: /vendor/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:19,094 Not Found: /wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:19,291 Not Found: /wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:19,485 Not Found: /wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:19,684 Not Found: /wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:19:19,879 Not Found: /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 12:26:04,831 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-18 12:26:04,864 Bad Request: /boaform/admin/formLogin
+2021-06-18 12:26:23,449 Not Found: /favicon.ico
+2021-06-18 12:30:13,445 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-18 12:30:13,479 Bad Request: /
+2021-06-18 12:34:23,456 Not Found: /favicon.ico
+2021-06-18 12:38:27,598 Not Found: /favicon.ico
+2021-06-18 12:50:34,430 Not Found: /favicon.ico
+2021-06-18 12:55:57,538 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-18 12:55:57,570 Bad Request: /setup.cgi
+2021-06-18 13:30:16,143 Not Found: /favicon.ico
+2021-06-18 13:31:54,193 Not Found: /.env
+2021-06-18 13:31:54,569 Not Found: /.env
+2021-06-18 13:31:54,938 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 14:22:07,329 Internal Server Error: /recordVideo/
+Traceback (most recent call last):
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/html/UBS-PI/PrathamWebApp_v2/core/views.py", line 270, in recordVideo
+    cv2.imshow('Frame', frame)
+cv2.error: OpenCV(4.5.1) /tmp/pip-req-build-1syr35c1/opencv/modules/highgui/src/window.cpp:376: error: (-215:Assertion failed) size.width>0 && size.height>0 in function 'imshow'
+
+2021-06-18 15:10:32,342 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-18 15:10:32,372 Bad Request: /robots.txt
+2021-06-18 15:48:33,258 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 15:48:33,260 Not Found: /api/jsonws/invoke
+2021-06-18 15:48:33,581 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-18 15:48:33,595 Not Found: /index.php
+2021-06-18 15:48:33,943 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-18 15:48:34,287 Not Found: /solr/admin/info/system
+2021-06-18 15:48:34,641 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-18 15:48:34,647 Not Found: /console/
+2021-06-18 15:48:35,243 Not Found: /_ignition/execute-solution
+2021-06-18 16:06:45,395 Not Found: /webfig/
+2021-06-18 16:15:58,628 Not Found: /.env
+2021-06-18 16:15:59,234 Forbidden (CSRF cookie not set.): /
+2021-06-18 17:00:07,616 Not Found: /.env
+2021-06-18 17:00:09,324 Forbidden (CSRF cookie not set.): /
+2021-06-18 17:49:57,448 Not Found: /config/getuser
+2021-06-18 18:24:53,361 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-18 18:24:53,400 Bad Request: /
+2021-06-18 18:40:11,500 Not Found: /HNAP1/
+2021-06-18 19:01:22,475 Invalid HTTP_HOST header: 'www.bing.com'. You may need to add 'www.bing.com' to ALLOWED_HOSTS.
+2021-06-18 19:01:22,522 Bad Request: /
+2021-06-18 21:30:12,929 Not Found: /.env
+2021-06-18 21:30:13,357 Forbidden (CSRF cookie not set.): /
+2021-06-19 00:18:19,019 Not Found: /.env
+2021-06-19 00:18:19,123 Forbidden (CSRF cookie not set.): /
+2021-06-19 01:16:20,127 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-19 01:16:20,164 Bad Request: /
+2021-06-19 01:46:29,851 Not Found: /rgs.mng
+2021-06-19 02:10:46,693 Not Found: /.env
+2021-06-19 02:10:47,002 Forbidden (CSRF cookie not set.): /
+2021-06-19 02:27:49,224 Not Found: /.env
+2021-06-19 02:27:55,066 Forbidden (CSRF cookie not set.): /
+2021-06-19 06:07:50,935 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-19 06:07:50,984 Bad Request: /boaform/admin/formLogin
+2021-06-19 08:30:15,881 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-19 08:30:16,259 Not Found: /api/jsonws/invoke
+2021-06-19 08:30:16,879 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-19 08:30:17,743 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-19 08:30:18,229 Not Found: /index.php
+2021-06-19 08:30:18,255 Not Found: /solr/admin/info/system
+2021-06-19 08:30:18,586 Not Found: /_ignition/execute-solution
+2021-06-19 08:30:19,120 Not Found: /console/
+2021-06-19 08:30:19,385 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-19 09:37:49,985 Invalid HTTP_HOST header: '192.168.204.159'. You may need to add '192.168.204.159' to ALLOWED_HOSTS.
+2021-06-19 09:37:50,023 Bad Request: /
+2021-06-19 10:21:55,620 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-19 10:21:55,653 Bad Request: /
+2021-06-19 17:18:58,518 Not Found: /portal/redlion
+2021-06-19 17:47:23,339 Not Found: /actuator/health
+2021-06-19 18:51:02,124 Invalid HTTP_HOST header: 'www.bing.com'. You may need to add 'www.bing.com' to ALLOWED_HOSTS.
+2021-06-19 18:51:02,156 Bad Request: /
+2021-06-19 19:18:13,306 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-19 19:18:13,339 Bad Request: /
+2021-06-19 19:36:35,088 Not Found: /config/getuser
+2021-06-19 20:42:32,649 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-19 20:42:32,680 Bad Request: /setup.cgi
+2021-06-19 21:16:18,161 Not Found: /.env
+2021-06-19 21:16:19,077 Forbidden (CSRF cookie not set.): /
+2021-06-19 23:15:26,504 Not Found: /.env
+2021-06-19 23:15:26,785 Forbidden (CSRF cookie not set.): /
+2021-06-20 01:40:34,985 Not Found: /MkNW
+2021-06-20 02:23:52,742 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-20 02:23:52,774 Bad Request: /
+2021-06-20 03:07:22,042 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-20 03:07:22,058 Not Found: /api/jsonws/invoke
+2021-06-20 03:07:22,395 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-20 03:07:22,402 Not Found: /solr/admin/info/system
+2021-06-20 03:07:22,727 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-20 03:07:22,742 Not Found: /index.php
+2021-06-20 03:07:23,764 Not Found: /console/
+2021-06-20 03:07:24,179 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-20 03:07:24,435 Not Found: /_ignition/execute-solution
+2021-06-20 03:30:59,615 Not Found: /boaform/admin/formLogin
+2021-06-20 05:24:21,409 Not Found: /boaform/admin/formLogin
+2021-06-20 07:30:54,081 Not Found: /.env
+2021-06-20 07:30:54,370 Forbidden (CSRF cookie not set.): /
+2021-06-20 10:01:51,924 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-20 10:01:51,960 Bad Request: /setup.cgi
+2021-06-20 10:11:22,083 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-20 10:11:22,114 Bad Request: /
+2021-06-20 11:10:14,371 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-20 11:10:14,401 Bad Request: /
+2021-06-20 14:08:00,881 Not Found: /HNAP1/
+2021-06-20 14:34:34,203 Not Found: /_ignition/execute-solution
+2021-06-20 16:32:21,938 Invalid HTTP_HOST header: 'www.bing.com'. You may need to add 'www.bing.com' to ALLOWED_HOSTS.
+2021-06-20 16:32:21,969 Bad Request: /
+2021-06-20 17:19:43,774 Not Found: /TP/public/index.php
+2021-06-20 17:19:44,150 Not Found: /TP/index.php
+2021-06-20 17:19:44,779 Not Found: /thinkphp/html/public/index.php
+2021-06-20 17:19:45,118 Not Found: /html/public/index.php
+2021-06-20 17:19:45,660 Not Found: /public/index.php
+2021-06-20 17:19:46,049 Not Found: /TP/html/public/index.php
+2021-06-20 17:19:46,462 Not Found: /elrekt.php
+2021-06-20 17:19:46,755 Not Found: /index.php
+2021-06-20 18:41:14,738 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-20 18:41:14,770 Bad Request: /setup.cgi
+2021-06-20 19:24:25,854 Not Found: /.env
+2021-06-20 19:24:26,257 Forbidden (CSRF cookie not set.): /
+2021-06-20 19:34:10,479 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-20 19:34:10,487 Not Found: /api/jsonws/invoke
+2021-06-20 19:34:10,839 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-20 19:34:11,033 Not Found: /solr/admin/info/system
+2021-06-20 19:34:11,383 Not Found: /index.php
+2021-06-20 19:34:11,771 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-20 19:34:12,066 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-20 19:34:12,100 Not Found: /_ignition/execute-solution
+2021-06-20 19:34:12,418 Not Found: /console/
+2021-06-20 20:12:24,856 Not Found: /manager/text/list
+2021-06-20 22:07:41,449 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-20 22:07:41,482 Bad Request: /
+2021-06-20 22:56:17,029 Not Found: /manager/html
+2021-06-21 00:42:31,647 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-21 00:42:31,683 Bad Request: /
+2021-06-21 01:04:10,748 Not Found: /.env
+2021-06-21 01:04:10,855 Forbidden (CSRF cookie not set.): /
+2021-06-21 01:47:02,142 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-21 01:47:02,180 Bad Request: /boaform/admin/formLogin
+2021-06-21 02:44:26,442 Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2021-06-21 02:44:26,482 Bad Request: /GponForm/diag_Form
+2021-06-21 05:22:49,082 Not Found: /solr/
+2021-06-21 08:56:41,987 Not Found: /HNAP1/
+2021-06-21 10:07:19,913 Not Found: /config/getuser
+2021-06-21 10:11:20,472 Not Found: /favicon.ico
+2021-06-21 10:15:12,628 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-21 10:15:12,663 Bad Request: /
+2021-06-21 10:29:17,606 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-21 10:29:17,642 Bad Request: /
+2021-06-21 12:26:30,071 Not Found: /_ignition/execute-solution
+2021-06-21 12:26:30,286 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-21 12:26:30,727 Not Found: /login
+2021-06-21 12:26:30,837 Not Found: /jenkins/login
+2021-06-21 12:26:31,053 Not Found: /manager/html
+2021-06-21 12:26:31,262 Not Found: /wp-login.php
+2021-06-21 13:28:27,902 Not Found: /.env
+2021-06-21 13:28:28,312 Forbidden (CSRF cookie not set.): /
+2021-06-21 13:47:55,650 Not Found: /images/Nxrs4tAtO/HCw4_2FQ7o69dmQEodXU/_2Fua56jJgWqt8tN1Tx/0M9Tus5G1nAOe_2BJflcrm/2nz3T7AxG_2Fd/YnZ7Cn6A/zq1HlKYZhiFyQLgflmvIbb1/yQL2MK3UaK/00uQsiMnxrcs4C9gN/xpGuwRLuq6tH/7YwEr.avi
+2021-06-21 14:39:14,622 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-21 14:39:14,966 Not Found: /solr/admin/info/system
+2021-06-21 14:39:15,311 Not Found: /index.php
+2021-06-21 14:39:15,663 Not Found: /api/jsonws/invoke
+2021-06-21 14:39:15,668 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-21 14:39:16,024 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-21 14:39:16,774 Not Found: /_ignition/execute-solution
+2021-06-21 14:39:17,104 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-21 14:39:17,140 Not Found: /console/
+2021-06-21 15:01:30,717 Not Found: /.env
+2021-06-21 15:01:31,118 Forbidden (CSRF cookie not set.): /
+2021-06-21 15:32:51,547 Invalid HTTP_HOST header: 'www.bing.com'. You may need to add 'www.bing.com' to ALLOWED_HOSTS.
+2021-06-21 15:32:51,581 Bad Request: /
+2021-06-21 16:34:20,244 Not Found: /config/getuser
+2021-06-21 17:06:08,357 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-21 17:06:08,391 Bad Request: /
+2021-06-21 19:51:47,649 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-21 19:51:47,678 Bad Request: /
+2021-06-21 20:50:14,782 Not Found: /.env
+2021-06-21 20:50:15,075 Forbidden (CSRF cookie not set.): /
+2021-06-21 21:29:20,280 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-21 21:29:20,314 Bad Request: /
+2021-06-21 22:35:32,923 Not Found: /shell
+2021-06-22 01:08:55,604 Not Found: /HNAP1/
+2021-06-22 01:52:09,500 Not Found: /webfig/
+2021-06-22 03:20:08,906 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-22 03:20:08,934 Bad Request: /
+2021-06-22 05:47:03,005 Not Found: /shell
+2021-06-22 06:13:12,236 Not Found: /.env
+2021-06-22 06:13:13,117 Forbidden (CSRF cookie not set.): /
+2021-06-22 07:36:44,387 Not Found: /api/jsonws/invoke
+2021-06-22 07:36:44,731 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-22 07:36:44,760 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-22 07:36:45,071 Not Found: /console/
+2021-06-22 07:36:45,077 Not Found: /index.php
+2021-06-22 07:36:46,013 Not Found: /solr/admin/info/system
+2021-06-22 07:36:46,321 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-22 07:36:46,463 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-22 07:36:46,802 Not Found: /_ignition/execute-solution
+2021-06-22 09:58:15,724 Not Found: /.env
+2021-06-22 09:58:16,202 Forbidden (CSRF cookie not set.): /
+2021-06-22 10:04:34,730 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-22 10:04:34,765 Bad Request: /
+2021-06-22 10:38:52,027 Not Found: /config/getuser
+2021-06-22 11:06:19,788 Not Found: /favicon.ico
+2021-06-22 11:10:28,793 Internal Server Error: /recordVideo/
+Traceback (most recent call last):
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/var/www/html/UBS-PI/UBS/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/html/UBS-PI/PrathamWebApp_v2/core/views.py", line 270, in recordVideo
+    cv2.imshow('Frame', frame)
+cv2.error: OpenCV(4.5.1) /tmp/pip-req-build-1syr35c1/opencv/modules/highgui/src/window.cpp:376: error: (-215:Assertion failed) size.width>0 && size.height>0 in function 'imshow'
+
+2021-06-22 11:11:58,627 Forbidden (CSRF token missing or incorrect.): /uploadVideo/
+2021-06-22 11:12:06,871 Forbidden (CSRF token missing or incorrect.): /uploadVideo/
+2021-06-22 11:12:15,835 Forbidden (CSRF token missing or incorrect.): /uploadVideo/
+2021-06-22 11:41:42,295 Not Found: /.env
+2021-06-22 11:41:42,694 Forbidden (CSRF cookie not set.): /
+2021-06-22 13:28:17,294 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-22 13:28:17,326 Bad Request: /
+2021-06-22 13:36:03,016 Not Found: /favicon.ico
+2021-06-22 15:39:50,281 Invalid HTTP_HOST header: 'www.bing.com'. You may need to add 'www.bing.com' to ALLOWED_HOSTS.
+2021-06-22 15:39:50,316 Bad Request: /
+2021-06-22 17:48:32,006 Not Found: /actuator/health
+2021-06-22 18:32:52,022 Not Found: /hudson
+2021-06-22 20:45:06,895 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-22 20:45:06,927 Bad Request: /
+2021-06-22 21:07:12,601 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-22 21:07:12,630 Bad Request: /
+2021-06-22 21:54:49,636 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-22 21:54:49,669 Bad Request: /
+2021-06-22 22:29:09,940 Not Found: /_ignition/execute-solution
+2021-06-22 23:02:27,713 Not Found: /.env
+2021-06-22 23:02:28,530 Forbidden (CSRF cookie not set.): /
+2021-06-22 23:30:41,684 Not Found: /c
+2021-06-23 00:32:59,914 Not Found: /shell
+2021-06-23 01:16:39,513 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-23 01:16:39,545 Bad Request: /
+2021-06-23 01:36:56,975 Not Found: /favicon.ico
+2021-06-23 01:36:57,007 Not Found: /robots.txt
+2021-06-23 03:42:48,207 Not Found: /api/jsonws/invoke
+2021-06-23 03:42:48,209 Not Found: /_ignition/execute-solution
+2021-06-23 03:42:48,540 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-23 03:42:48,543 Not Found: /index.php
+2021-06-23 03:42:48,867 Not Found: /solr/admin/info/system
+2021-06-23 03:42:49,372 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-23 03:42:49,978 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-23 03:42:50,311 Not Found: /console/
+2021-06-23 03:42:50,636 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-23 03:43:19,389 Not Found: /aaa9
+2021-06-23 03:43:19,995 Not Found: /aab9
+2021-06-23 07:07:07,949 Not Found: /favicon.ico
+2021-06-23 07:07:59,544 Not Found: /favicon.ico
+2021-06-23 07:30:45,562 Not Found: /favicon.ico
+2021-06-23 10:25:17,047 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-23 10:25:17,081 Bad Request: /
+2021-06-23 10:58:04,310 Not Found: /aaa9
+2021-06-23 10:58:04,923 Not Found: /aab9
+2021-06-23 13:07:43,339 Not Found: /favicon.ico
+2021-06-23 17:11:45,800 Not Found: /HNAP1/
+2021-06-23 17:32:34,999 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-23 17:32:35,029 Bad Request: /gate.php
+2021-06-23 18:49:41,859 Invalid HTTP_HOST header: 'www.bing.com'. You may need to add 'www.bing.com' to ALLOWED_HOSTS.
+2021-06-23 18:49:41,896 Bad Request: /
+2021-06-23 20:26:59,816 Not Found: /manager/html
+2021-06-23 20:28:49,664 Not Found: /config/getuser
+2021-06-23 20:50:40,852 Not Found: /.env
+2021-06-23 20:50:41,375 Forbidden (CSRF cookie not set.): /
+2021-06-23 21:40:10,705 Not Found: /_ignition/execute-solution
+2021-06-23 21:40:10,729 Not Found: /console/
+2021-06-23 21:40:11,046 Not Found: /index.php
+2021-06-23 21:40:11,677 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-23 21:40:12,238 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-23 21:40:12,244 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-23 21:40:13,373 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-23 21:40:13,378 Not Found: /solr/admin/info/system
+2021-06-23 21:40:13,725 Not Found: /api/jsonws/invoke
+2021-06-23 22:05:39,190 Not Found: /.env
+2021-06-23 22:05:39,595 Forbidden (CSRF cookie not set.): /
+2021-06-23 23:38:43,491 Not Found: /shell
+2021-06-24 00:17:42,878 Not Found: /webdav/
+2021-06-24 00:33:37,257 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-24 00:33:37,286 Bad Request: /
+2021-06-24 02:19:37,917 Not Found: /shell
+2021-06-24 02:25:30,494 Not Found: /ReportServer
+2021-06-24 03:52:11,775 Invalid HTTP_HOST header: 'httpbin.org:443'. You may need to add 'httpbin.org' to ALLOWED_HOSTS.
+2021-06-24 03:52:11,809 Bad Request: /
+2021-06-24 08:27:39,539 Not Found: /config/getuser
+2021-06-24 10:32:07,473 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-24 10:32:07,505 Bad Request: /
+2021-06-24 12:05:39,727 Not Found: /HNAP1/
+2021-06-24 12:24:54,215 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-24 12:24:54,223 Not Found: /api/jsonws/invoke
+2021-06-24 12:24:54,547 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-24 12:24:54,915 Not Found: /solr/admin/info/system
+2021-06-24 12:24:55,234 Not Found: /index.php
+2021-06-24 12:24:55,253 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-24 12:24:55,562 Not Found: /_ignition/execute-solution
+2021-06-24 12:24:55,579 Not Found: /console/
+2021-06-24 12:24:55,887 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-24 14:50:16,935 Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2021-06-24 14:50:16,972 Bad Request: /GponForm/diag_Form
+2021-06-24 17:24:12,168 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-24 17:24:12,202 Bad Request: /
+2021-06-24 17:53:28,845 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-24 17:53:28,875 Bad Request: /
+2021-06-24 18:08:31,036 Invalid HTTP_HOST header: 'www.bing.com'. You may need to add 'www.bing.com' to ALLOWED_HOSTS.
+2021-06-24 18:08:31,072 Bad Request: /
+2021-06-24 18:43:29,654 Not Found: /TP/public/index.php
+2021-06-24 18:43:29,918 Not Found: /TP/index.php
+2021-06-24 18:43:30,186 Not Found: /thinkphp/html/public/index.php
+2021-06-24 18:43:30,452 Not Found: /html/public/index.php
+2021-06-24 18:43:30,719 Not Found: /public/index.php
+2021-06-24 18:43:30,988 Not Found: /TP/html/public/index.php
+2021-06-24 18:43:31,256 Not Found: /elrekt.php
+2021-06-24 18:43:31,521 Not Found: /index.php
+2021-06-24 19:36:02,813 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-24 19:36:02,843 Bad Request: /setup.cgi
+2021-06-24 19:51:54,079 Not Found: /boaform/admin/formLogin
+2021-06-24 21:20:39,923 Not Found: /system_api.php
+2021-06-24 21:20:40,305 Not Found: /c/version.js
+2021-06-24 21:20:40,686 Not Found: /streaming/clients_live.php
+2021-06-24 21:20:41,058 Not Found: /stalker_portal/c/version.js
+2021-06-24 21:20:41,434 Not Found: /stream/live.php
+2021-06-24 22:20:23,567 Not Found: /.env
+2021-06-24 22:20:23,850 Forbidden (CSRF cookie not set.): /
+2021-06-24 22:27:29,554 Not Found: /config/getuser
+2021-06-24 22:52:07,604 Not Found: /.env
+2021-06-24 22:52:08,033 Forbidden (CSRF cookie not set.): /
+2021-06-25 00:03:45,647 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-25 00:03:45,678 Bad Request: /admin/config.php
+2021-06-25 01:06:33,221 Not Found: /phpmyadmin/
+2021-06-25 02:34:44,791 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-25 02:34:44,821 Bad Request: /panel/admin.php
+2021-06-25 02:49:39,127 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-25 02:49:39,165 Bad Request: /admin/config.php
+2021-06-25 03:18:53,546 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-25 03:18:53,578 Bad Request: /
+2021-06-25 04:36:12,462 Not Found: /.env
+2021-06-25 04:36:12,843 Forbidden (CSRF cookie not set.): /
+2021-06-25 05:59:25,908 Not Found: /favicon.ico
+2021-06-25 09:13:50,147 Not Found: /_ignition/execute-solution
+2021-06-25 09:13:50,184 Not Found: /console/
+2021-06-25 09:13:50,480 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-25 09:13:50,537 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-25 09:13:50,834 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-25 09:13:50,890 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-25 09:13:51,191 Not Found: /solr/admin/info/system
+2021-06-25 09:13:51,447 Not Found: /index.php
+2021-06-25 09:13:52,747 Not Found: /api/jsonws/invoke
+2021-06-25 09:50:54,919 Not Found: /favicon.ico
+2021-06-25 10:31:03,977 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-25 10:31:04,010 Bad Request: /
+2021-06-25 10:40:43,762 Not Found: /phpmyadmin/
+2021-06-25 11:05:25,845 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-25 11:05:25,876 Bad Request: /admin/config.php
+2021-06-25 12:51:49,898 Not Found: /config/getuser
+2021-06-25 13:43:02,697 Not Found: /images/Nxrs4tAtO/HCw4_2FQ7o69dmQEodXU/_2Fua56jJgWqt8tN1Tx/0M9Tus5G1nAOe_2BJflcrm/2nz3T7AxG_2Fd/YnZ7Cn6A/zq1HlKYZhiFyQLgflmvIbb1/yQL2MK3UaK/00uQsiMnxrcs4C9gN/xpGuwRLuq6tH/7YwEr.avi
+2021-06-25 14:17:20,605 Not Found: /favicon.ico
+2021-06-25 16:52:20,551 Not Found: /.env
+2021-06-25 16:52:20,940 Forbidden (CSRF cookie not set.): /
+2021-06-25 17:25:56,079 Not Found: /portal/redlion
+2021-06-25 17:35:23,906 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-25 17:35:23,940 Bad Request: /
+2021-06-25 17:39:32,981 Invalid HTTP_HOST header: 'www.bing.com'. You may need to add 'www.bing.com' to ALLOWED_HOSTS.
+2021-06-25 17:39:33,012 Bad Request: /
+2021-06-25 17:49:27,655 Not Found: /actuator/health
+2021-06-25 18:01:23,687 Not Found: /boaform/admin/formLogin
+2021-06-25 19:33:46,185 Not Found: /.env
+2021-06-25 19:33:46,572 Forbidden (CSRF cookie not set.): /
+2021-06-25 19:58:30,668 Not Found: /_ignition/execute-solution
+2021-06-25 20:24:16,768 Not Found: /index.php
+2021-06-25 20:25:13,399 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-25 20:25:13,430 Bad Request: /boaform/admin/formLogin
+2021-06-25 20:35:48,425 Not Found: /.env
+2021-06-25 20:35:48,710 Forbidden (CSRF cookie not set.): /
+2021-06-25 21:22:58,837 Not Found: /config/getuser
+2021-06-25 21:23:31,289 Not Found: /shell
+2021-06-26 02:13:08,942 Not Found: /.env
+2021-06-26 02:13:10,570 Forbidden (CSRF cookie not set.): /
+2021-06-26 02:21:13,252 Not Found: /api/jsonws/invoke
+2021-06-26 02:21:13,589 Not Found: /solr/admin/info/system
+2021-06-26 02:21:13,942 Not Found: /index.php
+2021-06-26 02:21:14,282 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-26 02:21:14,289 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-26 02:21:14,994 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-26 02:21:15,139 Not Found: /console/
+2021-06-26 02:21:15,467 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-26 02:21:15,712 Not Found: /_ignition/execute-solution
+2021-06-26 02:28:41,936 Not Found: /config/getuser
+2021-06-26 03:09:35,214 Not Found: /boaform/admin/formLogin
+2021-06-26 03:11:46,201 Not Found: /boaform/admin/formLogin
+2021-06-26 03:17:17,760 Not Found: /clientaccesspolicy.xml
+2021-06-26 04:23:53,017 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-26 04:23:53,051 Bad Request: /
+2021-06-26 06:06:38,386 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-26 06:06:38,422 Bad Request: /boaform/admin/formLogin
+2021-06-26 08:11:32,824 Not Found: /boaform/admin/formLogin
+2021-06-26 08:57:07,765 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-26 08:57:07,804 Bad Request: /boaform/admin/formLogin
+2021-06-26 09:22:39,467 Not Found: /favicon.ico
+2021-06-26 09:31:54,280 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-26 09:31:54,313 Bad Request: /boaform/admin/formLogin
+2021-06-26 10:02:11,948 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-26 10:02:11,984 Bad Request: /
+2021-06-26 10:22:27,289 Invalid HTTP_HOST header: 'httpbin.org:443'. You may need to add 'httpbin.org' to ALLOWED_HOSTS.
+2021-06-26 10:22:27,328 Bad Request: /
+2021-06-26 11:30:38,208 Not Found: /stalker_portal/server/tools/auth_simple.php
+2021-06-26 14:31:10,984 Not Found: /.env
+2021-06-26 14:31:11,388 Not Found: /wp-content/
+2021-06-26 16:25:44,992 Not Found: /.env
+2021-06-26 16:25:45,758 Forbidden (CSRF cookie not set.): /
+2021-06-26 16:26:45,089 Not Found: /muieblackcat
+2021-06-26 16:26:45,339 Not Found: /phpMyAdmin/scripts/setup.php
+2021-06-26 16:26:45,592 Not Found: /phpmyadmin/scripts/setup.php
+2021-06-26 16:26:45,844 Not Found: /PMA/scripts/setup.php
+2021-06-26 16:26:46,346 Not Found: /dbadmin/scripts/setup.php
+2021-06-26 16:26:46,594 Not Found: /mysql/scripts/setup.php
+2021-06-26 16:26:46,842 Not Found: /webdav/wickd.php
+2021-06-26 16:38:09,892 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-26 16:38:09,942 Bad Request: /
+2021-06-26 17:32:02,554 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-26 17:32:02,556 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-26 17:32:02,890 Not Found: /index.php
+2021-06-26 17:32:03,233 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-26 17:32:03,920 Not Found: /api/jsonws/invoke
+2021-06-26 17:32:04,591 Not Found: /console/
+2021-06-26 17:32:04,811 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-26 17:32:05,091 Not Found: /solr/admin/info/system
+2021-06-26 17:32:05,709 Not Found: /_ignition/execute-solution
+2021-06-26 17:52:10,001 Invalid HTTP_HOST header: 'www.bing.com'. You may need to add 'www.bing.com' to ALLOWED_HOSTS.
+2021-06-26 17:52:10,040 Bad Request: /
+2021-06-26 18:00:35,582 Not Found: /boaform/admin/formLogin
+2021-06-26 20:01:35,717 Not Found: /config/getuser
+2021-06-26 21:35:28,487 Invalid HTTP_HOST header: 'httpbin.org:443'. You may need to add 'httpbin.org' to ALLOWED_HOSTS.
+2021-06-26 21:35:28,520 Bad Request: /
+2021-06-26 22:33:16,541 Not Found: /bag2
+2021-06-26 23:35:21,010 Not Found: /boaform/admin/formLogin
+2021-06-26 23:46:14,108 Not Found: /c/
+2021-06-26 23:47:04,369 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-26 23:47:04,403 Bad Request: /
+2021-06-27 00:21:23,033 Not Found: /boaform/admin/formLogin
+2021-06-27 01:05:24,352 Not Found: /_profiler/phpinfo
+2021-06-27 02:14:54,213 Not Found: /favicon.ico
+2021-06-27 03:29:37,928 Not Found: /boaform/admin/formLogin
+2021-06-27 03:39:29,053 Not Found: /.env
+2021-06-27 03:39:29,752 Not Found: /env/.env
+2021-06-27 03:39:30,459 Not Found: /laravel/.env
+2021-06-27 03:39:31,859 Not Found: /local.env
+2021-06-27 03:39:32,554 Not Found: /test/.env
+2021-06-27 03:39:33,262 Not Found: /blog/.env
+2021-06-27 03:39:33,967 Not Found: /cms/.env
+2021-06-27 04:27:21,319 Not Found: /shell
+2021-06-27 05:01:53,397 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-27 05:01:53,443 Bad Request: /
+2021-06-27 06:18:14,675 Not Found: /.env
+2021-06-27 06:18:15,052 Forbidden (CSRF cookie not set.): /
+2021-06-27 07:23:51,096 Not Found: /phpmyadmin
+2021-06-27 07:39:21,584 Not Found: /.env
+2021-06-27 07:39:22,007 Forbidden (CSRF cookie not set.): /
+2021-06-27 10:23:04,211 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-27 10:23:04,245 Bad Request: /
+2021-06-27 11:53:28,127 Not Found: /boaform/admin/formLogin
+2021-06-27 14:49:53,110 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-27 14:49:53,128 Not Found: /api/jsonws/invoke
+2021-06-27 14:49:53,464 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-27 14:49:55,317 Not Found: /solr/admin/info/system
+2021-06-27 14:49:55,341 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-27 14:49:55,807 Not Found: /console/
+2021-06-27 14:49:56,037 Not Found: /index.php
+2021-06-27 14:49:56,137 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-27 14:49:56,366 Not Found: /_ignition/execute-solution
+2021-06-27 15:07:59,701 Not Found: /HNAP1/
+2021-06-27 18:08:32,011 Not Found: /.env
+2021-06-27 18:08:32,281 Forbidden (CSRF cookie not set.): /
+2021-06-27 18:32:38,957 Not Found: /w00tw00t.at.blackhats.romanian.anti-sec:)
+2021-06-27 18:32:39,473 Not Found: /phpMyAdmin/scripts/setup.php
+2021-06-27 18:32:39,990 Not Found: /phpmyadmin/scripts/setup.php
+2021-06-27 18:32:40,517 Not Found: /pma/scripts/setup.php
+2021-06-27 18:32:41,047 Not Found: /myadmin/scripts/setup.php
+2021-06-27 18:32:41,571 Not Found: /MyAdmin/scripts/setup.php
+2021-06-27 19:47:37,427 Invalid HTTP_HOST header: 'httpbin.org:443'. You may need to add 'httpbin.org' to ALLOWED_HOSTS.
+2021-06-27 19:47:37,458 Bad Request: /
+2021-06-27 20:10:36,578 Not Found: /manager/text/list
+2021-06-27 21:36:46,208 Not Found: /.env
+2021-06-27 21:36:46,607 Forbidden (CSRF cookie not set.): /
+2021-06-27 21:43:54,574 Not Found: /.env
+2021-06-27 21:43:55,161 Forbidden (CSRF cookie not set.): /
+2021-06-27 22:21:34,676 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-27 22:21:34,708 Bad Request: /
+2021-06-27 22:38:56,496 Not Found: /_ignition/execute-solution
+2021-06-27 22:55:44,279 Not Found: /manager/html
+2021-06-28 00:26:43,081 Not Found: /robots.txt
+2021-06-28 00:26:43,876 Not Found: /sitemap.xml
+2021-06-28 00:26:44,288 Not Found: /.well-known/security.txt
+2021-06-28 00:26:47,241 Not Found: /favicon.ico
+2021-06-28 00:47:11,175 Not Found: /boaform/admin/formLogin
+2021-06-28 01:42:13,793 Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2021-06-28 01:42:13,828 Bad Request: /GponForm/diag_Form
+2021-06-28 02:48:00,450 Not Found: /boaform/admin/formLogin
+2021-06-28 04:28:38,308 Not Found: /api/jsonws/invoke
+2021-06-28 04:28:38,322 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-28 04:28:38,668 Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-06-28 04:28:38,670 Not Found: /solr/admin/info/system
+2021-06-28 04:28:39,018 Not Found: /wp-content/plugins/wp-file-manager/readme.txt
+2021-06-28 04:28:39,384 Not Found: /Autodiscover/Autodiscover.xml
+2021-06-28 04:28:39,728 Not Found: /console/
+2021-06-28 04:28:39,737 Not Found: /_ignition/execute-solution
+2021-06-28 04:28:40,055 Not Found: /index.php
+2021-06-28 04:55:41,239 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-28 04:55:41,274 Bad Request: /
+2021-06-28 05:39:17,315 Not Found: /favicon.ico
+2021-06-28 09:22:44,745 Not Found: /favicon.ico
+2021-06-28 09:43:15,485 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-28 09:43:15,519 Bad Request: /
+2021-06-28 10:21:18,339 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-28 10:21:18,378 Bad Request: /
+2021-06-28 12:23:40,641 Not Found: /boaform/admin/formLogin
+2021-06-28 12:25:31,090 Not Found: /clientaccesspolicy.xml
+2021-06-28 14:56:50,623 Invalid HTTP_HOST header: 'ubspi.internal.cloudapp.net'. You may need to add 'ubspi.internal.cloudapp.net' to ALLOWED_HOSTS.
+2021-06-28 14:56:50,659 Bad Request: /boaform/admin/formLogin
+2021-06-28 15:01:56,766 Not Found: /boaform/admin/formLogin
+2021-06-28 15:08:01,746 Not Found: /boaform/admin/formLogin
